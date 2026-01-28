@@ -1,4 +1,4 @@
-# name: discourse-digest-notifier
+# name: digest-report-gemini
 # about: Sends a POST request with email_id and user_id after a digest is sent
 # version: 0.2
 # authors: Gemini
