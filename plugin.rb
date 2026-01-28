@@ -18,7 +18,7 @@ after_initialize do
       discourse_user_id = user.id
 
       # External endpoint configuration
-      uri = URI.parse("https://your-server.com/receive_digest.php")
+      uri = URI.parse("https://ai.templetrends.com/digest_report.php")
       
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = (uri.scheme == "https")
